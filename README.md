@@ -76,22 +76,22 @@ recipe-finder/
 ├── tsconfig.json                      # TypeScript configuration
 └── next.config.js                     # Next.js configuration
 ```
-##Usage 🍴
+## Usage 🍴
 Home Page:
 
 Visit the home page to search for recipes or browse the recipe directory.
 
-##Recipe Directory:
+## Recipe Directory:
 
 -Browse recipes by Category, Cuisine, or Ingredient.
 
 -Click on a recipe to view its details.
 
-##Search Recipes:
+## Search Recipes:
 
 -Use the search bar on the home page to find recipes by name.
 
-##Favorites:
+## Favorites:
 
 -Save your favorite recipes for easy access (coming soon!).
 
