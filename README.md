@@ -36,13 +36,13 @@ Welcome to **Recipe Finder**, a Next.js app that helps you discover delicious re
    git clone https://github.com/your-username/recipe-finder.git
    cd recipe-finder
 Install dependencies:
-
+```
 npm install
+```
 Start the development server:
-
-bash
-Copy
+```
 npm run dev
+```
 Open your browser and navigate to http://localhost:3000.
 
 Project Structure 📂
@@ -83,17 +83,17 @@ Visit the home page to search for recipes or browse the recipe directory.
 
 ## Recipe Directory:
 
--Browse recipes by Category, Cuisine, or Ingredient.
+Browse recipes by Category, Cuisine, or Ingredient.
 
--Click on a recipe to view its details.
+Click on a recipe to view its details.
 
 ## Search Recipes:
 
--Use the search bar on the home page to find recipes by name.
+Use the search bar on the home page to find recipes by name.
 
 ## Favorites:
 
--Save your favorite recipes for easy access (coming soon!).
+Save your favorite recipes for easy access (coming soon!).
 
 ## Contributing
 
