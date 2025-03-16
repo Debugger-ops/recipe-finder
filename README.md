@@ -37,8 +37,6 @@ Welcome to **Recipe Finder**, a Next.js app that helps you discover delicious re
    cd recipe-finder
 Install dependencies:
 
-bash
-Copy
 npm install
 Start the development server:
 
