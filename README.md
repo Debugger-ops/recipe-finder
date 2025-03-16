@@ -35,15 +35,15 @@ Welcome to **Recipe Finder**, a Next.js app that helps you discover delicious re
    ```bash
    git clone https://github.com/your-username/recipe-finder.git
    cd recipe-finder
-Install dependencies:
+2. Install dependencies:
 ```
 npm install
 ```
-Start the development server:
+3. Start the development server:
 ```
 npm run dev
 ```
-Open your browser and navigate to http://localhost:3000.
+4. Open your browser and navigate to http://localhost:3000.
 
 Project Structure 📂
 ```
