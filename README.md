@@ -83,42 +83,37 @@ Visit the home page to search for recipes or browse the recipe directory.
 
 ##Recipe Directory:
 
-Browse recipes by Category, Cuisine, or Ingredient.
+-Browse recipes by Category, Cuisine, or Ingredient.
 
-Click on a recipe to view its details.
+-Click on a recipe to view its details.
 
 ##Search Recipes:
 
-Use the search bar on the home page to find recipes by name.
+-Use the search bar on the home page to find recipes by name.
 
 ##Favorites:
 
-Save your favorite recipes for easy access (coming soon!).
+-Save your favorite recipes for easy access (coming soon!).
 
-##Contributing 🤝
-Contributions are welcome! If you'd like to contribute, please follow these steps:
+## Contributing
 
-Fork the repository.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Create a new branch (git checkout -b feature/YourFeatureName).
+## License
 
-Commit your changes (git commit -m 'Add some feature').
+This project is licensed under the MIT License - see the LICENSE file for details. details.
 
-Push to the branch (git push origin feature/YourFeatureName).
+## Acknowledgments 🙏
+1. TheMealDB for providing the recipe data.
 
-Open a pull request.
+2. Next.js for the awesome framework.
 
-License 📄
-This project is licensed under the MIT License. See the LICENSE file for details.
+3. Enjoy cooking with Recipe Finder! 🍳
 
-Acknowledgments 🙏
-TheMealDB for providing the recipe data.
-
-Next.js for the awesome framework.
-
-Enjoy cooking with Recipe Finder! 🍳
-
-Copy
 
 ---
 
