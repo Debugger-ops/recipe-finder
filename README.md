@@ -46,17 +46,27 @@ npm run dev
 Open your browser and navigate to http://localhost:3000.
 
 Project Structure 📂
-Copy
+```
 recipe-finder/
 ├── app/
 │   ├── directory/                     # Recipe Directory pages
 │   │   ├── page.tsx                   # Main directory page
 │   │   ├── category/
 │   │   │   └── [category]/            # Dynamic pages for recipes by category
+│   │   │        ├──page.tsx
+|   |   │        └──category.css 
 │   │   ├── area/
 │   │   │   └── [area]/                # Dynamic pages for recipes by area (cuisine)
+│   │   │        ├──page.tsx
+|   |   │        └──area.css 
 │   │   └── ingredient/
-│   │       └── [ingredient]/          # Dynamic pages for recipes by ingredient
+│   │   │    └── [ingredient]/  # Dynamic pages for recipes by ingredient
+│   │   │        ├──page.tsx
+|   |   │        └──ingredient.css 
+│   │── recipe/
+│   │   │   └──[id]/
+│   │   │        ├──page.tsx
+|   |   │        └──recipe-detail.css            
 │   ├── services/
 │   │   └── api.ts                     # API client for TheMealDB
 │   ├── types.ts                       # TypeScript types
@@ -65,6 +75,7 @@ recipe-finder/
 ├── package.json                       # Project dependencies
 ├── tsconfig.json                      # TypeScript configuration
 └── next.config.js                     # Next.js configuration
+```
 Usage 🍴
 Home Page:
 
