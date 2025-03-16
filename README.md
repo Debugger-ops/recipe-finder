@@ -37,10 +37,10 @@ Welcome to **Recipe Finder**, a Next.js app that helps you discover delicious re
    cd recipe-finder
 2. Install dependencies:
    ```bash
-      npm install
+   npm install
    ```
 3. Start the development server:
-   ```
+   ```bash
    npm run dev
    ```
 4. Open your browser and navigate to http://localhost:3000.
