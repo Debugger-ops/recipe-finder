@@ -1,25 +1,31 @@
 import { fetchRecipesByArea } from '../../../services/api';
 import { Recipe } from '../../../types';
-import styles from './area.module.css';
+import './area.css'; // Regular CSS import
 
-export default async function AreaPage({ params }: { params: { area: string } }) {
+type PageProps = {
+  params: {
+    area: string;
+  };
+};
+
+export default async function AreaPage({ params }: PageProps) {
   const recipes = await fetchRecipesByArea(params.area);
 
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>Recipes from {params.area}</h1>
+    <div className="container">
+      <h1 className="title">Recipes from {params.area}</h1>
       
-      <div className={styles.recipeGrid}>
+      <div className="recipeGrid">
         {recipes.map((recipe: Recipe) => (
-          <div key={recipe.idMeal} className={styles.recipeCard}>
-            <div className={styles.imageWrapper}>
+          <div key={recipe.idMeal} className="recipeCard">
+            <div className="imageWrapper">
               <img 
                 src={recipe.strMealThumb} 
                 alt={recipe.strMeal} 
-                className={styles.recipeImage}
+                className="recipeImage"
               />
             </div>
-            <h2 className={styles.recipeName}>{recipe.strMeal}</h2>
+            <h2 className="recipeName">{recipe.strMeal}</h2>
           </div>
         ))}
       </div>
