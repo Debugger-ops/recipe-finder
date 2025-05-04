@@ -1,0 +1,118 @@
+/* Put this in a separate CSS file, e.g., app/styles/home.css */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 40px ;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #dedddd;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  }
+  
+  header {
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 3.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+  }
+  
+  .browse-section {
+    margin: 30px 0;
+  }
+  
+  .browse-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #27ae60;
+    color: rgb(243, 241, 241);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(39, 174, 96, 0.2);
+  }
+  
+  .browse-button:hover {
+    background-color: #2ecc71;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(39, 174, 96, 0.3);
+  }
+  
+  .search-section {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgb(228, 225, 225);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .search-section h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .search-input {
+    flex: 1;
+    min-width: 250px;
+    color: black;
+    padding: 14px 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .search-button {
+    padding: 14px 30px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media (max-width: 600px) {
+    .search-input, .search-button {
+      width: 100%;
+    }
+    
+    header h1 {
+      font-size: 2.5rem;
+    }
+  }
